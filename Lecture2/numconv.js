@@ -18,10 +18,10 @@ console.log("**********More Conversion Examples**********");
 //More Conversion Examples
 //Number after special characters are ignored
 console.log(parseInt('1.5'));
-console.log(parseInt('1 + 1'));
+console.log(parseInt('1 + 1'));//เพราะมันเป็น string เลยออกมาเป็น1
 
 //Using Template Literals
-console.log(parseInt(`${1 + 1}`));
+console.log(parseInt(`${1 + 1}`));//$=เรียกตัวแปรก็ได้ บวกค่าก็ได้ เป็นฟังก์ชันก็ได้
 
 console.log("**********Converting numbers to strings**********");
 //Converting numbers to strings

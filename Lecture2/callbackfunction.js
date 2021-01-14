@@ -7,4 +7,4 @@ function logQuote(quote){
     console.log(quote + ' Yes..');
 }
 
-createQuote(" you will getting better!", logQuote);
+createQuote(" you will getting better!", logQuote);//เริ่มที่นี่
