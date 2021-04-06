@@ -17,7 +17,7 @@ function equation(num) {
 
     var total = parseInt(numm[0]) ;
     for(var i = 1 ; i < numm.length ; i++){
-      if(operator[i-1] == '+'){
+      if(operator[i-1] == '+'){หห
         total+=parseInt(numm[i]);
       }else if(operator[i-1] == '-'){
         total-=parseInt(numm[i]);

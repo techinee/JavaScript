@@ -18,4 +18,4 @@ const sum = (firstParam, secondParam) => {
   
   // Concise arrow functions
   const multiplt = (a,b) => a*b;
-  console.log(multiply(2,30));
+  console.log(multiplt(2,30));
